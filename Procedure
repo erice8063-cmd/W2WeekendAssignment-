@@ -1,4 +1,4 @@
-*CREATE PROCEDURE GetAccountByName(IN employee_id VARCHAR(50))
+CREATE PROCEDURE GetAccountByName(IN employee_id VARCHAR(50))
 BEGIN
 	SELECT employee_id, account_name, balance
     FROM employee_values
