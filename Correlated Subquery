@@ -1,0 +1,3 @@
+SELECT employee_id FROM employee_values
+WHERE employee_id > (
+SELECT AVG(employee_id) FROM employee_values);
