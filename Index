@@ -1,0 +1,3 @@
+CREATE INDEX employee_id ON employee_values(employee_id);
+
+SHOW INDEX FROM employee_values
